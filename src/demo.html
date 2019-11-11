@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="25676932138-d586n93dft0svr4m2vrgv2udfeqm3e89.apps.googleusercontent.com">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +31,8 @@
 	<input type="text" placeholder="" id="test" >
 	</div>
 	<div class="col-sm-4">
-	<button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#login">Sign In</button>
+<!-- 	<button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#login">Sign In</button> -->
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
 	</div>
 	</div>
 	</div>
@@ -222,6 +225,48 @@
   </div>
 </div>
 
+<script type="text/javascript">
+	function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
 
+
+
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+   
+   document.getElementById('usr_img').src=profile.getImageUrl();
+   document.getElementById('usr_name').innerHTML=profile.getName();
+   document.getElementById('usr_id').innerHTML=profile.getEmail();
+
+    var div_sign_in = document.getElementById('sign_in');
+	$('#sign_in').css('display','none');
+
+    var div_sign_out = document.getElementById('sign_me_out');
+	$('#sign_me_out').css('display','block');
+}
+
+function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+
+    var div_sign_out = document.getElementById('sign_me_out');
+	$('#sign_me_out').css('display','none');
+
+    var div_sign_in = document.getElementById('sign_in');
+	$('#sign_in').css('display','block');
+
+
+    });
+
+
+
+
+
+  }
+
+</script>
 </body>
 </html>
