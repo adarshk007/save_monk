@@ -33,19 +33,17 @@
 
 <script>
   var counter = 0;
+  var init = "No items yet!";
+  $(".counter").html(init);
   function tests() {
 
   "use strict"
   
-  var init = "No items yet!";
-  
 
-  // Initial Cart
-  $(".counter").html(init);
   
   // Add Items To Basket
   function addToBasket() {
-    counter++;
+    counter=counter+1;
     $(".counter").html(counter).animate({
       'opacity' : '0'
     },300, function() {
