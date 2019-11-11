@@ -318,7 +318,8 @@
 				  <form>
 					<input id="name_frnd" type="text" name="user" placeholder="Name">
 					<input id="number_frnd" type="text" name="phone" placeholder="Phone no">
-					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+<!-- 					<input type="submit" name="login" class="login loginmodal-submit" value="Login"> -->
+					<a id="whatsapp" class="login loginmodal-submit" role="button" value="Refer" />
 				  </form>
 				</div>
 			</div>
@@ -331,6 +332,17 @@ document.getElementById("right").addEventListener("click", myFunctionone);
 document.getElementById("Delhi").addEventListener("click", myFunctiondelhi);
 document.getElementById("Noida").addEventListener("click", myFunctionnoida);
 document.getElementById("Gurgaon").addEventListener("click", myFunctiongurgaon);
+document.getElementById("whatsapp").addEventListener("click", myFunctionapp);
+
+function myFunctionapp()
+{
+var str=window.location.href;
+var input1 = document.getElementById("name_frnd").value;
+var input2 = document.getElementById("number_frnd").value;
+
+str = "https://wa.me/"+input2+"?text=Hello%20"+input1+",%20please%20visit%20Savemonk%20and%20choose%20your%20design%20and%20offers%20at%20cheaper%20rate.";
+window.location.href = str;	
+}
 	
 function myFunctionone() {
 var name="all";
