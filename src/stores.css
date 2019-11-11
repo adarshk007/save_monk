@@ -17,15 +17,16 @@ h2 {
     font-size: 0.5em;
   }
 }
-  li {
+
+/* .responsive-table { */
+
+    li {
     border-radius: 3px;
     padding: 25px 30px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
   }
-.responsive-table {
-
   .table-header {
     background-color: #95A5A6;
     font-size: 14px;
@@ -85,4 +86,4 @@ h2 {
       }
     }
   }
-}
+/* } */
