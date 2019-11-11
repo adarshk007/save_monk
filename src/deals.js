@@ -17,9 +17,9 @@ api_s.onload = function() {
             newNode.className = class_css[(Math.floor((Math.random()*6) + 1))-1];
             newNode.innerHTML = "<div class='product_inner'>"+
                           "<img src='"+(beta.Icon)+"' width='300'>"+
-                          "<p>"+(beta.Item)+"</p>"+
-                          "<p>"+(beta.Company)+"</p>"+
-                          "<p>Price "+(beta.Reduced_Price)+"</p>"+
+                          "<p style='color:black;'>"+(beta.Item)+"</p>"+
+                          "<p style='color:black;'>"+(beta.Company)+"</p>"+
+                          "<p style='color:black;'>Price "+(beta.Reduced_Price)+"</p>"+
                           "<button onclick='tests()'>Add to basket</button>"+
                   "</div>"+
                   "<div class='product_overlay'>"+
