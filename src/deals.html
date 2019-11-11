@@ -43,7 +43,7 @@
   
   // Add Items To Basket
   function addToBasket() {
-    counter=counter+1;
+    counter=counter+1-counter;
     $(".counter").html(counter).animate({
       'opacity' : '0'
     },300, function() {
