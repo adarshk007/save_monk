@@ -20,7 +20,7 @@ api_s.onload = function() {
                           "<p>"+(beta.Item)+"</p>"+
                           "<p>"+(beta.Company)+"</p>"+
                           "<p>Price "+(beta.Reduced_Price)+"</p>"+
-                          "<button id='basket'>Add to basket</button>"+
+                          "<button onclick='tests()'>Add to basket</button>"+
                   "</div>"+
                   "<div class='product_overlay'>"+
                          "<h2>Added to basket</h2>"+
