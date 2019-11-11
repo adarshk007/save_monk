@@ -1,5 +1,5 @@
-[{"Company": "Asian Paints", "Reduced Price": 15500 , "Item": "Wall Painting", "Icon": "http://5.imimg.com/data5/ST/WM/MY-65675937/interior-wall-painting-500x500.jpg" },
-{"Company": "Marvel Studios", "Reduced Price": 1000, "Item": "Tshirts/Accessories", "Icon": "https://blog.truffleshuffle.co.uk/wp-content/uploads/2013/07/marvel_header.jpg" },
-{"Company": "Palantir", "Reduced Price": 3000 , "Item": "Logos", "Icon": "https://inkbotdesign.com/wp-content/uploads/2012/08/Freelance-Graphic-Designer-Logos-Inkbot-Design-Logo-Portfolio.png" },
-{"Company": "Divami Design Labs", "Reduced Price":700 , "Item": "Cups/Mugs", "Icon": "http://5.imimg.com/data5/DQ/JG/MY-2831383/ceramic-black-multi-tea-2fcoffee-mugs-2fcups-set-500x500.jpg" },
-{"Company": "Nerolac", "Reduced Price": 12000, "Item":"Graffiti/Wall Paiting", "Icon": "https://www.fatcap.org/uploads/msc/2011-12-28/lv_5f32c96f5ffa248cf256f501a8d5d53364e71356.jpg" }]
+[{"Company": "Asian Paints", "Reduced_Price": 15500 , "Item": "Wall Painting", "Icon": "http://5.imimg.com/data5/ST/WM/MY-65675937/interior-wall-painting-500x500.jpg" },
+{"Company": "Marvel Studios", "Reduced_Price": 1000, "Item": "Tshirts/Accessories", "Icon": "https://blog.truffleshuffle.co.uk/wp-content/uploads/2013/07/marvel_header.jpg" },
+{"Company": "Palantir", "Reduced_Price": 3000 , "Item": "Logos", "Icon": "https://inkbotdesign.com/wp-content/uploads/2012/08/Freelance-Graphic-Designer-Logos-Inkbot-Design-Logo-Portfolio.png" },
+{"Company": "Divami Design Labs", "Reduced_Price":700 , "Item": "Cups/Mugs", "Icon": "http://5.imimg.com/data5/DQ/JG/MY-2831383/ceramic-black-multi-tea-2fcoffee-mugs-2fcups-set-500x500.jpg" },
+{"Company": "Nerolac", "Reduced_Price": 12000, "Item":"Graffiti/Wall Paiting", "Icon": "https://www.fatcap.org/uploads/msc/2011-12-28/lv_5f32c96f5ffa248cf256f501a8d5d53364e71356.jpg" }]
