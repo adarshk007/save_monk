@@ -12,46 +12,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-<script>
-  $(function() {
-
-  "use strict"
-  
-  var init = "No items yet!";
-  var counter = 0;
-
-  // Initial Cart
-  $(".counter").html(init);
-  
-  // Add Items To Basket
-  function addToBasket() {
-    counter++;
-    $(".counter").html(counter).animate({
-      'opacity' : '0'
-    },300, function() {
-      $(".counter").delay(300).animate({
-        'opacity' : '1'
-      })
-    })
-  }
-
-  // Add To Basket Animation
-  $("button").click(function() {
-    addToBasket(); $(this).parent().parent().find(".product_overlay").css({
-      'transform': ' translateY(0px)',
-      'opacity': '1',
-      'transition': 'all ease-in-out .45s'
-    }).delay(1500).queue(function() {
-      $(this).css({
-        'transform': 'translateY(-500px)',
-        'opacity': '0',
-        'transition': 'all ease-in-out .45s'
-      }).dequeue();
-    });
-  });
-});
-
-</script>
   <script src="deals.js"></script>
 
 <link type="text/css" rel="stylesheet" href="deals.css"></link>
@@ -95,7 +55,7 @@
   }
 
   // Add To Basket Animation
-  $("button").click(function() {
+  $("button").live(function() {
     addToBasket(); $(this).parent().parent().find(".product_overlay").css({
       'transform': ' translateY(0px)',
       'opacity': '1',
