@@ -74,6 +74,21 @@
     background-repeat: no-repeat;
     padding: 12px 30px 15px 10px;
 }
+
+input.noimage {
+	width: 350px;
+       height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-size: 35px 35px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 12px 30px 15px 10px;
+}
+
 .line
 {
 	border-bottom: 2px solid #222;
