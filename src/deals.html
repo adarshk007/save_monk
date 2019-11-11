@@ -43,7 +43,6 @@
   
   // Add Items To Basket
   function addToBasket() {
-    counter=counter+1-counter;
     $(".counter").html(counter).animate({
       'opacity' : '0'
     },300, function() {
@@ -55,6 +54,7 @@
 
   // Add To Basket Animation
   $("button").on('click',function() {
+     counter+=1;
     addToBasket(); $(this).parent().parent().find(".product_overlay").css({
       'transform': ' translateY(0px)',
       'opacity': '1',
