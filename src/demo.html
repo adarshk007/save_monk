@@ -166,9 +166,9 @@
 	        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">All Stores
 	        <span class="caret"></span></a>
 	        <ul class="dropdown-menu">
-	          <li><a href="#">Delhi</a></li>
-	          <li><a href="#">Noida</a></li>
-	          <li><a href="#">Gurgaon</a></li>
+	          <li><a id="Delhi" href="#">Delhi</a></li>
+	          <li><a id="Noida" href="#">Noida</a></li>
+	          <li><a id="Gurgaon" href="#">Gurgaon</a></li>
 	        </ul>
 	      </li>
 	       <li><a href="deals.html" style="color: white;">Deals of the day</a></li>
@@ -349,6 +349,41 @@
 </div>
 
 <script type="text/javascript">
+	
+document.getElementById("right").addEventListener("click", myFunctionone);
+document.getElementById("Delhi").addEventListener("click", myFunctiondelhi);
+document.getElementById("Noida").addEventListener("click", myFunctionnoida);
+document.getElementById("Gurgaon").addEventListener("click", myFunctiongurgaon);
+	
+function myFunctionone() {
+var name="all";
+var str=window.location.href;
+var d=str.split('/demo');
+var z=d[0]+'/stores.html?loc='+name;
+window.open(z);
+}
+function myFunctiondelhi() {
+var name="Delhi";
+var str=window.location.href;
+var d=str.split('/demo');
+var z=d[0]+'/stores.html?loc='+name;
+window.open(z);
+}
+function myFunctionnoida() {
+var name="Noida";
+var str=window.location.href;
+var d=str.split('/demo');
+var z=d[0]+'/stores.html?loc='+name;
+window.open(z);
+}
+function myFunctiongurgaon() {
+var name="Gurgaon";
+var str=window.location.href;
+var d=str.split('/demo');
+var z=d[0]+'/stores.html?loc='+name;
+window.open(z);
+}
+	
 	function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
 
