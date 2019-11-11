@@ -55,7 +55,7 @@
   }
 
   // Add To Basket Animation
-  $("button").live(function() {
+  $("#basket").on('click','button',function() {
     addToBasket(); $(this).parent().parent().find(".product_overlay").css({
       'transform': ' translateY(0px)',
       'opacity': '1',
