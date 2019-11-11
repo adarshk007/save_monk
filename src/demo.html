@@ -32,7 +32,19 @@
 	</div>
 	<div class="col-sm-4">
 <!-- 	<button type="button" class="btn btn-danger pull-right" data-toggle="modal" data-target="#login">Sign In</button> -->
-	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<!-- 	<div class="g-signin2" data-onsuccess="onSignIn"></div> -->
+		<div id="sign_in">
+<br><br><br><br><br>
+<center><div class="g-signin2" data-onsuccess="onSignIn"></div></center>
+</div>
+
+<div id="sign_me_out" class="show_data">
+<center><img id="usr_img" width="100" height="100"></img></center>
+<center><h5 id="usr_name" ></h5></center>
+<center><p id="usr_id" ></p></center>
+<br><br>
+<center><button  class="btn btn-danger" href="#" onclick="signOut();">Sign out</button></center><br><br><br><br>
+<hr/>
 	</div>
 	</div>
 	</div>
