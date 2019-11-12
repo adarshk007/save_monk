@@ -37,7 +37,7 @@ api_s.onload = function() {
 				  "<div class='col col-4' data-label='Type'>"+(beta.Type)+"</div>"+
 				  "<div style='color:#C33764;' class='col col-5' data-label='Rating'>"+(beta.Rating)+"</div>"+
 				  "<div class='col col-6' data-label='Contact'>"+(beta.Contact)+"</div>" +
-				  "<div class='col col-7' data-label='link'><button class='btn btn-danger' onclick='move("+beta.URL+")'>URL</button></div>"                          
+				  "<div class='col col-7' data-label='link'><a class='btn btn-danger' href='"+(beta.URL)+"'>URL</a></div>"                          
 	//                           "<p>"+(beta.Item)+"</p>"+
 	//                           "<p style='color:#20002c;'>"+(beta.Company)+"</p>"+
 	//                           "<p style='color:#20002c;'>Price "+(beta.Reduced_Price)+"</p>"+
@@ -57,7 +57,4 @@ api_s.onload = function() {
 }
 deals();
 // style='color:#20002c;'
-function move(loca)
-{
-window.open(loca);
-}
+
