@@ -38,7 +38,7 @@ api_s.onload = function() {
 				  "<div class='col col-4' data-label='Type'>"+(beta.Contact_Number)+"</div>"+
 				  "<div style='color:#C33764;' class='col col-5' data-label='Rating'>"+(beta.Service_Type)+"</div>"+
 				  "<div class='col col-6' data-label='Contact'>"+(beta.Payment_Mode)+"</div>" +
-				  "<div class='col col-7' data-label='link'><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span></button>&nbsp;&nbsp;<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></button></div>"                          
+				  "<div class='col col-7' data-label='link'><button type='button' class='btn btn-success'><span class='glyphicon glyphicon-ok'></span></button>&nbsp;&nbsp;<button type='button' class='btn btn-danger'><span class='glyphicon glyphicon-remove'></span></button></div>"                          
 	//                           "<p>"+(beta.Item)+"</p>"+
 	//                           "<p style='color:#20002c;'>"+(beta.Company)+"</p>"+
 	//                           "<p style='color:#20002c;'>Price "+(beta.Reduced_Price)+"</p>"+
@@ -54,7 +54,7 @@ api_s.onload = function() {
  	 i=i+1;
  	}
 }; 
-// (api_s).send();
+(api_s).send();
 }
 deals();
 // style='color:#20002c;'
