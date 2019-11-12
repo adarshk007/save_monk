@@ -53,7 +53,7 @@ api_s.onload = function() {
  	 i=i+1;
  	}
 }; 
-// (api_s).send();
+(api_s).send();
 }
 deals();
 // style='color:#20002c;'
