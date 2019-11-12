@@ -19,8 +19,8 @@ api_s.onload = function() {
 
 	var data = JSON.parse(this.response);
 	var str11=window.location.href;
-	var des=str11.split('?');
-	var des=des[1].split('=');
+// 	var des=str11.split('?');
+// 	var des=des[1].split('=');
 	var i=1;
 	for(var j=0;j<data.length;j++)  // for unkown Value then we will use For each Fucntion for Loop
 	{
@@ -28,7 +28,7 @@ api_s.onload = function() {
 		
   	if (api_s.status >= 200 && api_s.status < 400) 
   		{	
-		if(des[1]==beta.Location || des[1]=="all" || des[1].includes(beta.Type)){
+		if(true){
 		    var newNode = document.createElement('li');
 		    newNode.className = "table-row";
 		    newNode.id= ""+(beta.Customer_ID);
