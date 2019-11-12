@@ -1,18 +1,18 @@
 [
-{"Customer_ID": "1001", "Name":"Raju", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact Number":"+91-9876509980", "Request":"4.2", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1002", "Name":"Kaju", "Payment_Mode": "PayTM" ,"Service_Type": "Architectural Design", "Contact Number":"+91-8909804355", "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1003", "Name":"Nathu", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact Number":"+91-9898892134" , "Request":"3.8", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1004", "Name":"Nibbi", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact Number":"+91-9990187907" , "Request":"3.7", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1005", "Name":"Kamlesh", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact Number":"+91-8800719098" , "Request":"3.9", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1006", "Name":"Boomer", "Payment_Mode": "PayTM" ,"Service_Type":"Architectural Design", "Contact Number":"+91-9091187645" , "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1007", "Name":"Nigga", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact Number":"+91-9195034216" , "Request":"3.5", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1001", "Name":"Raju", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact_Number":"+91-9876509980", "Request":"4.2", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1002", "Name":"Kaju", "Payment_Mode": "PayTM" ,"Service_Type": "Architectural Design", "Contact_Number":"+91-8909804355", "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1003", "Name":"Nathu", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact_Number":"+91-9898892134" , "Request":"3.8", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1004", "Name":"Nibbi", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact_Number":"+91-9990187907" , "Request":"3.7", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1005", "Name":"Kamlesh", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact_Number":"+91-8800719098" , "Request":"3.9", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1006", "Name":"Boomer", "Payment_Mode": "PayTM" ,"Service_Type":"Architectural Design", "Contact_Number":"+91-9091187645" , "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1007", "Name":"Nigga", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact_Number":"+91-9195034216" , "Request":"3.5", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
   
 
-{"Customer_ID": "1008", "Name":"Dost", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact Number":"+91-9898892134" , "Request":"3.8", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1009", "Name":"Yaar", "Payment_Mode": "PayTM" ,"Service_Type":"Digital Design", "Contact Number":"+91-9990187907" , "Request":"3.7", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1010", "Name":"Friend", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact Number":"+91-9876509980", "Request":"4.2", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1011", "Name":"Bro", "Payment_Mode": "PayTM" ,"Service_Type": "Architectural Design", "Contact Number":"+91-8909804355", "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1012", "Name":"Bhai", "Payment_Mode": "Google Pay" ,"Service_Type":"Digital Design", "Contact Number":"+91-8800719098" , "Request":"3.9", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1013", "Name":"Mitr", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact Number":"+91-9091187645" , "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
-{"Customer_ID": "1014", "Name":"Fraand", "Payment_Mode": "PayTM" ,"Service_Type":"Digital Design", "Contact Number":"+91-9195034216" , "Request":"3.5", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"}
+{"Customer_ID": "1008", "Name":"Dost", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact_Number":"+91-9898892134" , "Request":"3.8", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1009", "Name":"Yaar", "Payment_Mode": "PayTM" ,"Service_Type":"Digital Design", "Contact_Number":"+91-9990187907" , "Request":"3.7", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1010", "Name":"Friend", "Payment_Mode": "Google Pay" ,"Service_Type":"Architectural Design", "Contact_Number":"+91-9876509980", "Request":"4.2", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1011", "Name":"Bro", "Payment_Mode": "PayTM" ,"Service_Type": "Architectural Design", "Contact_Number":"+91-8909804355", "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1012", "Name":"Bhai", "Payment_Mode": "Google Pay" ,"Service_Type":"Digital Design", "Contact_Number":"+91-8800719098" , "Request":"3.9", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1013", "Name":"Mitr", "Payment_Mode": "Cash" ,"Service_Type":"Digital Design", "Contact_Number":"+91-9091187645" , "Request":"4.0", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"},
+{"Customer_ID": "1014", "Name":"Fraand", "Payment_Mode": "PayTM" ,"Service_Type":"Digital Design", "Contact_Number":"+91-9195034216" , "Request":"3.5", "Logo":"http://www.emmegi.co.uk/wp-content/uploads/2019/01/User-Icon.jpg"}
 ]
